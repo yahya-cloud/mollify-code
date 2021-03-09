@@ -1,0 +1,38 @@
+.form{
+    width: 80%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading--form{
+    font-family: var(--font-numericTxt);
+    font-weight: 400;
+    margin: 1rem;
+    font-size: 4.3rem;
+}
+
+.heading--green{
+color: var(--color-green);
+}
+
+.heading--red{
+    color: var(--color-darkRed);
+}
+
+
+@media only screen and (max-width:900px){
+    .form{
+       margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+    .form{
+        width: 100%;
+    }
+
+}

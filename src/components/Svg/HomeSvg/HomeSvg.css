@@ -1,0 +1,80 @@
+.homeSvg{
+    width: 120%;
+    animation: translateY 2s ease-in-out infinite alternate;
+}
+.attribution{
+    font-size: 5rem;
+}
+.girl{
+    animation: translateY 2s ease-in-out infinite alternate;
+}
+
+.petal{
+    animation:  petalRotateAntiClock 2s ease-in-out infinite alternate;
+    transform-origin: bottom left;
+    transform-box: fill-box;
+}
+
+.petalLeft{
+    animation: petalRotateClock 2s ease-in-out infinite alternate;
+    transform-origin: bottom right;
+    transform-box: fill-box;
+}
+
+
+
+@keyframes scale{
+    0%{
+        transform: scale(0.2, 0.2);
+    }
+
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+@keyframes backgroundColor{
+    0%{
+        fill:#eaf3f1;
+    }
+    100%{
+        fill: #f9f871;
+    }
+}
+
+@keyframes leafRotateAntiClock{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
+}
+
+@keyframes petalRotateAntiClock{
+    0%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
+}
+
+@keyframes petalRotateClock{
+    0%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(2deg);
+    }
+}
+
+
+@keyframes translateY{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-4%);
+    }
+}

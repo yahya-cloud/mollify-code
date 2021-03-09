@@ -1,0 +1,17 @@
+.ApproachSvg{
+    width: 100%;
+    height: 100%;
+}
+
+.block{
+   animation: blockOpacity 2.5s linear infinite alternate;
+}
+
+@keyframes blockOpacity{
+    0%{
+        opacity: .2;
+    }
+    100%{
+        opacity: .9;
+    }
+}

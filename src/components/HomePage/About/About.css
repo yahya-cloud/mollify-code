@@ -1,0 +1,25 @@
+.about__container{
+    width: 100%;
+    padding: 2rem ;
+    height: min-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8rem;;
+    grid-row-gap: 10rem;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.aboutHeading__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+@media only screen and (max-width: 900px){
+    .about__container{
+      grid-row-gap: 5rem;
+    }
+}
